@@ -10,7 +10,7 @@ if (typeof String.prototype.contains !== 'function') {
 }
 
 /**
- * String.addSlashes()
+ * String.addSlashes
  */
 if (typeof String.prototype.addSlashes !== 'function') {
     String.prototype.addSlashes = function() {
@@ -26,7 +26,7 @@ if (typeof String.prototype.addSlashes !== 'function') {
 }
 
 /**
- * String.bin2Hex()
+ * String.bin2Hex
  */
 if (typeof String.prototype.bin2Hex !== 'function') {
     String.prototype.bin2Hex = function() {
@@ -35,7 +35,7 @@ if (typeof String.prototype.bin2Hex !== 'function') {
 }
 
 /**
- * String.hex2Bin()
+ * String.hex2Bin
  */
 if (typeof String.prototype.hex2Bin !== 'function') {
     String.prototype.hex2Bin = function() {
@@ -44,7 +44,18 @@ if (typeof String.prototype.hex2Bin !== 'function') {
 }
 
 /**
- * String.rtrim()
+ * String.convertBase
+ * @param baseIn    The base of the input number
+ * @param baseOut   The base of the output number
+ */
+if (typeof String.prototype.convertBase !== 'function') {
+    String.prototype.convertBase(baseIn, baseOut) = function() {
+        return parseInt(this, baseIn).toString(baseOut);
+    };
+} 
+
+/**
+ * String.rtrim
  */
 if (typeof String.prototype.rtrim !== 'function') {
     String.prototype.rtrim = function() {
@@ -53,7 +64,7 @@ if (typeof String.prototype.rtrim !== 'function') {
 }
 
 /**
- * String.countChars()
+ * String.countChars
  */
 if (typeof String.prototype.countChars !== 'function') {
     String.prototype.countChars = function() {
@@ -67,7 +78,7 @@ if (typeof String.prototype.countChars !== 'function') {
 }
 
 /**
- * String.repeat()
+ * String.repeat
  * @param num   The number of times to repeat the string
  */ 
 if (typeof String.prototype.repeat !== 'function') {
@@ -77,18 +88,18 @@ if (typeof String.prototype.repeat !== 'function') {
 }
 
 /**
- * String.shuffle()
+ * String.shuffle
  */
 if (typeof String.prototype.shuffle !== 'function') {
     String.prototype.shuffle = function() {
         return this.split('').sort(function() {
-            return 0.5-Math.random()
+            return 0.5 - Math.random();
         }).join('');        
     }
 }
 
 /**
- * String.reverse()
+ * String.reverse
  */
 if (typeof String.prototype.reverse !== 'function') {
     String.prototype.reverse = function() {
@@ -97,7 +108,7 @@ if (typeof String.prototype.reverse !== 'function') {
 }
 
 /**
- * String.tokenize()
+ * String.tokenize
  */
 if (typeof String.prototype.tokenize !== 'function') {
     String.prototype.tokenize = function() {
@@ -106,7 +117,7 @@ if (typeof String.prototype.tokenize !== 'function') {
 }
 
 /**
- * String.ucfirst()
+ * String.ucfirst
  */
 if (typeof String.prototype.ucfirst !== 'function') {
     String.prototype.ucfirst = function() {
@@ -115,7 +126,7 @@ if (typeof String.prototype.ucfirst !== 'function') {
 }
 
 /**
- * String.ucwords()
+ * String.ucwords
  */
 if (typeof String.prototype.ucwords !== 'function') {
     String.prototype.ucwords = function() {
