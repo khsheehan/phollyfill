@@ -1,4 +1,4 @@
 phollyfill
 ==========
 
-PHP String methods for Javascript
+PHP String method polyfills for Javascript
