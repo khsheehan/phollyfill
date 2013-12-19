@@ -33,7 +33,7 @@ if (typeof String.prototype.addSlashes !== 'function') {
  * String.bin2Hex()
  */
 if (typeof String.prototype.bin2Hex !== 'function') {
-    String.prototype.bin2hex = function() {
+    String.prototype.bin2Hex = function() {
         return parseInt(this, 2).toString(16);
     };
 }
