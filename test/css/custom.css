@@ -10,8 +10,14 @@ h2 {
     font-size: 3em;
 }
 
-div.container {
-    width: 800px;
+div.content-wrapper {
+    opacity: 0;
+    text-align: center;
+}
+
+span.container {
+    display: inline-block;
+    text-align: left;
     margin: auto;
 }
 
@@ -32,7 +38,7 @@ div.js-extension {
 
 div.js-extension span {
     position: relative;
-    top: -2px;
+    top: -3px;
 }
 
 table.method-demo-wrapper {
@@ -46,7 +52,7 @@ table.method-demo-wrapper span {
 
 table.method-demo-wrapper tr td:first-child {
     padding: 10px 0;
-    width: 400px;
+    width: 600px;
 }
 
 table.method-demo-wrapper tr {
@@ -89,4 +95,16 @@ span.return-value.false {
     background: #DE8181;
     border-color: #C47272;   
     color: #5E3737;
+}
+
+span.return-value.number {
+    background: #81C7DE;
+    border-color: #72B0C4;   
+    color: #466B78;
+}
+
+span.return-value.string {
+    background: #DEC081;
+    border-color: #C4AA72;   
+    color: #786846;
 }

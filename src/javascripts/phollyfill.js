@@ -64,6 +64,15 @@ if (typeof String.prototype.rtrim !== 'function') {
 }
 
 /**
+ * String.ltrim
+ */
+if (typeof String.prototype.ltrim !== 'function') {
+    String.prototype.ltrim = function() {
+        return this.replace(/^\s+/, '');
+    };
+}
+
+/**
  * String.countChars
  */
 if (typeof String.prototype.countChars !== 'function') {

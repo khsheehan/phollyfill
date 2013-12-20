@@ -13,6 +13,7 @@
             val,
             returnLoc,
             i;
+        $('div.content-wrapper').fadeTo(500, 1.0);
         for(i = 0; i < methods.length; i++) {
             elem = $(methods[i]);
             method = elem.text();
@@ -24,6 +25,10 @@
                 returnLoc.addClass('true');
             } else if (val === false) {
                 returnLoc.addClass('false');
+            } else if (!isNaN(val)) {
+                returnLoc.addClass('number');
+            } else if (typeof val === 'string') {
+                returnLoc.addClass('string');
             }
         }
     };
