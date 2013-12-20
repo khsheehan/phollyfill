@@ -1,8 +1,234 @@
-<html>
-<head>
-	<script src="../src/javascripts/pholyfill.js"></script>
-</head>
-<body>
-	<h1>phollyfill</h1>
-</body>
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class='container'>
+            <h1>phollyfill<div class='js-extension'><span>js</span></div></h1>
+            <div class='phollyfill-section'>
+                <h2>String</h2>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.contains()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".contains("mo str");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".contains("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.addSlashes()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".addSlashes("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.bin2Hex()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".bin2Hex("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.hex2Bin()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".hex2Bin("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.convertBase()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".convertBase("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.rtrim()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo .rtrim".contains("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.countChars()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".countChars("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.repeat()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".repeat("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.shuffle()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".shuffle("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.reverse()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".reverse("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.tokenize()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".tokenize("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='phollyfill-demo'>
+                    <span class='method-name'>.ucfirst()</span>
+                    <table class='method-demo-wrapper'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class='method-apply'>"demo string".ucfirst("abc");</span>
+                                </td>
+                                <td>
+                                    <span class='return-value'>return</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="/src/javascripts/phollyfill.js"></script>
+        <script src="js/test.phollyfill.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
 </html>

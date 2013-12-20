@@ -1,0 +1,92 @@
+body {
+    color: #444;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+div.container {
+    width: 800px;
+    margin: auto;
+}
+
+div.js-extension {
+    background: #E87751;
+    color: #fff;
+    text-align: center;
+    height: 1.25em;
+    margin-left: 20px;
+    width: 1.25em;
+    padding: 0.25em;
+    border-radius: 10em;
+    display: inline-block;
+    font-size: 0.4em;
+    position: relative;
+    top: -17px;
+}
+
+div.js-extension span {
+    position: relative;
+    top: -2px;
+}
+
+table.method-demo-wrapper {
+    font-family: courier;
+}
+
+table.method-demo-wrapper span {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+table.method-demo-wrapper tr td:first-child {
+    padding: 10px 0;
+    width: 400px;
+}
+
+table.method-demo-wrapper tr {
+    border-top: solid 8px #fff;
+    border-bottom: solid 8px #fff;
+    cursor: default;
+}
+
+table.method-demo-wrapper tr:hover {
+    background: #FAF9BE;
+}
+
+div.phollyfill-demo {
+    margin-bottom: 20px;
+    padding: 14px 0;
+}
+
+span.method-name {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: courier;
+    font-size: 1.1em;
+}
+
+span.return-value {
+    background: #f2f2f2;
+    border: solid 1px #D9D9D9;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 0.75em;
+}
+
+span.return-value.true {
+    background: #88DE81;
+    border-color: #79C472;
+    color: #3A5E37;
+}
+
+span.return-value.false {
+    background: #DE8181;
+    border-color: #C47272;   
+    color: #5E3737;
+}

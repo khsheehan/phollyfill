@@ -49,7 +49,7 @@ if (typeof String.prototype.hex2Bin !== 'function') {
  * @param baseOut   The base of the output number
  */
 if (typeof String.prototype.convertBase !== 'function') {
-    String.prototype.convertBase(baseIn, baseOut) = function() {
+    String.prototype.convertBase = function(baseIn, baseOut) {
         return parseInt(this, baseIn).toString(baseOut);
     };
 } 
