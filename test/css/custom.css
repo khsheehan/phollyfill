@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 7em;
 }
 
 h2 {
@@ -38,7 +38,8 @@ div.js-extension {
 
 div.js-extension span {
     position: relative;
-    top: -3px;
+    top: -4px;
+    left: 2px;
 }
 
 table.method-demo-wrapper {
@@ -83,6 +84,7 @@ span.return-value {
     padding: 4px;
     border-radius: 3px;
     font-size: 0.75em;
+    color: #8C8C8C;
 }
 
 span.return-value.true {
@@ -104,7 +106,7 @@ span.return-value.number {
 }
 
 span.return-value.string {
-    background: #DEC081;
-    border-color: #C4AA72;   
-    color: #786846;
+    background: #FFFFBF;
+    border-color: #F7F7BA;
+    color: #ABAB80;
 }
